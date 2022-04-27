@@ -1,7 +1,7 @@
 .header{
   background-image: url("\pattern-bg.png");
   width: 100%;
-  height:35vh;
+  height:50vh;
   background-size: cover;
   display:flex;
   font-size: 20px;
@@ -53,9 +53,21 @@ font-family: 'Rubik', monospace;
 display: flex;
 flex-direction: column;
 width:100%;
-align-items: center;
+align-items: left;
 padding-right: 10px;
-padding-left: 10px;
+padding-left: 20px;
+}
+.text h4{
+  font-weight: lighter;
+  font-size: 0.8em;
+  font-weight: bolder;
+}
+.text p{
+  font-weight: bold;
+  text-align: left;
+  color: black;
+  font-size: 1.4em;
+  margin-top: 10px;
 }
 .text:last-child{
 border-right: none;
@@ -84,9 +96,7 @@ border-right: none;
   height: 50px;
   position:absolute;
 }
-p{
-  text-align: center;
-}
+
 h4{
   margin-bottom:0px;
 }
